@@ -63,7 +63,7 @@ class App extends React.Component {
                   <div className="modal-background"></div>
                   <div className="modal-content">
                     <p>
-                    <iframe style={iframeFix} src="https://www.docdroid.net/08styoe/brendenwilliamsresume.pdf" frameborder="0" 
+                    <iframe style={iframeFix} src="https://www.docdroid.net/rVpaKuK/brenden-williams-resume-v4.pdf" frameborder="0" 
                      title="resume"></iframe>
                     </p>
                   </div>
