@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { statement } from '@babel/template';
 // import Gameboy from './Gameboy'
 
 export default class ProjectsContainer extends Component {
@@ -27,7 +28,17 @@ export default class ProjectsContainer extends Component {
                   </div>
               </div>
               <div className="content has-text-centered">
-                <p>Some text my guys</p>
+              <p className="subtitle is-4">Details</p>
+              <p>Created the server using RESTful routing with Ruby on Rails and Postgres</p>
+                <p>
+                Users can login and make single or recurring donations with Stripe integration
+                </p>
+                <p>
+                Mobile ready design approached using Bulma.io and Sass
+                </p>
+                <p>
+                Front-end built on React and state managed using React-Redux 
+                </p>
                 <br />
                 <a className="button is-link is-outlined fix-buttons" href="https://github.com/VonStein7/helping-hands-client">
                   <span className="icon">
@@ -56,7 +67,17 @@ export default class ProjectsContainer extends Component {
                   </div>
               </div>
               <div className="content has-text-centered">
-                <p>Some text my guys</p>
+              <p className="subtitle is-4">Details</p>
+                <p>Let users search for and read manga online</p>
+                <p>
+                Applied RESTful routing for sites CRUD functionality
+                </p>
+                <p>
+                Used Materialize css created mobile views
+                </p>
+                <p>
+                Live search and scrape manga using Nokogiri if not in the database
+                </p>
                 <br />
                 <a className="button is-link is-outlined fix-buttons" href="https://github.com/VonStein7/mangatopia-rails-client">
                   <span className="icon">
@@ -85,7 +106,14 @@ export default class ProjectsContainer extends Component {
                   </div>
               </div>
               <div className="content has-text-centered">
-                <p>Some text my guys</p>
+                <p className="subtitle is-4">Details</p>
+                <p>Tasked with using Bulma.io to create a mobile ready website for the client</p>
+                <p>
+                Created a carousel of instagram images using React-Slick-Carousel
+                </p>
+                <p>
+                Desserts dynamically rendered for scalability
+                </p>
                 <br />
                 <a className="button is-link is-outlined fix-buttons" href="https://github.com/VonStein7/wembie-client">
                   <span className="icon">
